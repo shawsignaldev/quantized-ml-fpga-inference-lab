@@ -24,3 +24,11 @@ python -m pytest -q
 The goal is to show engineering judgment across quant research, cyber-physical systems,
 low-latency infrastructure, and hardware/software co-design. This is a public prototype,
 not a live trading system.
+
+## Accelerator depth
+
+This repo includes additional hardware/AI acceleration notes:
+
+- [Hardware architecture](docs/hardware-architecture.md)
+- [Throughput and memory model](docs/throughput-memory-model.md)
+- [Verification plan](docs/verification-plan.md)
