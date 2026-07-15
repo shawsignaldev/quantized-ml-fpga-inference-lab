@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantized-ml-fpga-inference-lab"
+version = "0.1.0"
+description = "Quantized inference utilities for FPGA-oriented ML signal prototypes."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Ephraim Shaw" }]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
